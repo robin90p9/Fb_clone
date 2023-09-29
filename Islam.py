@@ -161,24 +161,6 @@ Owner: RED-MAFIA(R.K)
 Facebook: RIAZ-HACKER
 
 """)
-CorrectUsername = "ROBIN"
-CorrectPassword = "ISLAM"
-
-loop = 'true'
-while (loop == 'true'):
-    username = raw_input("\033[1;97m\x1b[1;91mTool Username \x1b[1;97m»» \x1b[1;97m")
-    if (username == CorrectUsername):
-    	password = raw_input("\033[1;97m \x1b[1;91mTool Password  \x1b[1;97m» \x1b[1;97m")
-        if (password == CorrectPassword):
-            print "Logged in successfully as " + username 
-	    time.sleep(2)
-            loop = 'false'
-        else:
-            print "\033[1;94mWrong Password"
-            os.system('xdg-https://wa.me/+923188214452')
-    else:
-        print "\033[1;94mWrong Username"
-        os.system('xdg-https://wa.me/+923188214452')
 
 
 numm = [5,2,5,2,2]
